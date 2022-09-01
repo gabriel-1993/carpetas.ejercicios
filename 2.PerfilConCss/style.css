@@ -1,0 +1,78 @@
+* {
+  background-color: darkslategrey;
+  padding: 0;
+  margin: 0;
+}
+.datos {
+  margin: 10px;
+  color: #fff;
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+}
+.dp {
+  padding: 2px;
+  font-size: x-large;
+}
+.foto {
+  height: 220px;
+  width: 260px;
+  border-radius: 100%;
+}
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedorp {
+  margin-left: 90px;
+  margin-right: 90px;
+  text-align: center;
+}
+.p {
+  color: #fff;
+  border-radius: 20px;
+  background-color: rgb(80, 101, 221);
+  padding: 100px;
+  font-size: xx-large;
+}
+.form1 {
+  width: 50%;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.contacto {
+  color: #fff;
+  text-align: center;
+  margin: ;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+textarea {
+  min-height: 100px;
+  max-height: 300px;
+  max-width: 100%;
+}
+.boton {
+  border-radius: 20px;
+  background-color: rgb(215, 205, 15);
+  color: #fff;
+  padding: 20px;
+}
+.boton:hover {
+  cursor: pointer;
+  background-color: rgb(80, 101, 221);
+}
