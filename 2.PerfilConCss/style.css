@@ -48,7 +48,7 @@
 .contacto {
   color: #fff;
   text-align: center;
-  margin: ;
+
   font-size: 30px;
   margin-bottom: 20px;
 }
@@ -75,4 +75,9 @@ textarea {
 .boton:hover {
   cursor: pointer;
   background-color: rgb(80, 101, 221);
+}
+.esc1 {
+  display: flex;
+  border: black solid;
+  justify-content: center;
 }
