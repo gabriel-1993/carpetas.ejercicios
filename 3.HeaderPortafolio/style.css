@@ -1,7 +1,7 @@
 * {
   background: #caf0f8;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -14,8 +14,10 @@
   height: 110px;
 }
 .nav1 {
+  font-weight: 300;
+  letter-spacing: 2mm;
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 12px;
   display: flex;
   align-items: center;
   gap: 40px;
@@ -30,8 +32,11 @@
 }
 .nav2:hover {
   cursor: pointer;
-  border: solid #fff 4px;
-  padding: 5px 30px;
+  border-top: solid #fff 4px;
+  border-bottom: solid #fff 4px;
+  padding: 5px 10px;
+  font-weight: 200;
+  font-size: 14px;
 }
 .logo {
   background-color: #0077b6;
