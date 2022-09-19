@@ -7,14 +7,11 @@
   text-decoration: none;
   list-style-type: none;
 }
-
 .header1 {
-  margin-top: 0;
-  position: fixed;
   display: flex;
   justify-content: space-between;
   background-color: #0077b6;
-  height: 90px;
+  height: 70px;
   width: 100%;
 }
 .nav {
@@ -34,20 +31,131 @@
   background-color: #0077b6;
 }
 .nav2 {
-  color: #fff;
+  color: #212529;
   background-color: #0077b6;
   font-weight: 700;
 }
 .nav2:hover {
   cursor: pointer;
-  border-top: solid #fff 1px;
-  border-bottom: solid #fff 1px;
+  border-top: solid #212529 2px;
+  border-bottom: solid #212529 2px;
   padding: 5px 10px;
-  font-weight: 200;
+  font-weight: 700;
   font-size: 14px;
 }
 .logo {
   background-color: #0077b6;
-  height: 90px;
+  height: 70px;
   padding-left: 40px;
+}
+.main1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  background-color: #212529;
+}
+.section1 {
+  display: flex;
+  justify-content: center;
+  padding: 50px 50px;
+  width: 90%;
+  margin: 0 auto;
+  background: linear-gradient(to right, #1488cc, #3a3e9b);
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+.divtexto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+}
+.divimagen {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.imgportada {
+  height: 200px;
+}
+
+.h1portada {
+  font-size: 35px;
+  color: #212529;
+  margin-top: 12px;
+}
+.h2portada {
+  font-size: 33px;
+  color: #212529;
+}
+.pportada {
+  font-size: 17px;
+  color: #fff;
+  margin: 30px 0;
+}
+.botonesportada {
+  display: flex;
+  gap: 30px;
+}
+.botonwhatssap {
+  background: #212529;
+  color: #1488cc;
+  padding: 10px 40px;
+  border-radius: 25px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.logowhatsapp {
+  height: 40px;
+}
+.botonleermas {
+  background: #3e44ab;
+  color: #fff;
+  padding: 10px 78px;
+  border-radius: 25px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  width: 90%;
+
+  border-top: solid 1px rgb(249, 228, 228);
+  border-bottom: solid 1px rgb(249, 228, 228);
+}
+
+.divhola {
+  padding: 2px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 90%;
+  background: #1488cc;
+}
+.pdescripcion {
+  border-radius: 30px;
+  text-align: justify;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 5px;
+  background: #3a3e9b;
+  color: #212529;
+  padding: 50px;
+}
+
+.nucba {
+  color: #fff;
 }
