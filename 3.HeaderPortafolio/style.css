@@ -53,7 +53,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px 0;
+  padding: 50px 0;
   background-color: #212529;
 }
 .section1 {
@@ -79,19 +79,20 @@
   align-items: center;
 }
 .imgportada {
-  height: 200px;
+  height: 180px;
 }
 
 .h1portada {
-  font-size: 35px;
+  font-size: 31px;
   color: #212529;
   margin-top: 12px;
 }
 .h2portada {
-  font-size: 33px;
+  font-size: 28px;
   color: #212529;
 }
 .pportada {
+  font-weight: 700;
   font-size: 17px;
   color: #fff;
   margin: 30px 0;
@@ -103,7 +104,7 @@
 .botonwhatssap {
   background: #212529;
   color: #1488cc;
-  padding: 10px 40px;
+  padding: 8px 35px;
   border-radius: 25px;
   border: none;
   font-size: 20px;
@@ -113,12 +114,12 @@
   gap: 15px;
 }
 .logowhatsapp {
-  height: 40px;
+  height: 30px;
 }
 .botonleermas {
   background: #3e44ab;
   color: #fff;
-  padding: 10px 78px;
+  padding: 8px 68px;
   border-radius: 25px;
   border: none;
   font-size: 20px;
@@ -136,26 +137,24 @@
 }
 
 .divhola {
-  padding: 2px;
   border-radius: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
-  width: 90%;
-  background: #1488cc;
+  width: 100%;
+  background: linear-gradient(to right, #1488cc, #3a3e9b);
 }
 .pdescripcion {
   border-radius: 30px;
   text-align: justify;
-  font-size: 17px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   padding: 5px;
-  background: #3a3e9b;
-  color: #212529;
+
+  color: #ececec;
   padding: 50px;
 }
 
 .nucba {
-  color: #fff;
-}
+  color: #000;
