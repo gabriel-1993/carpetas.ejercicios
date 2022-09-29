@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Desarrollo Web</title>
   </head>
   <body>
@@ -12,7 +19,9 @@
       <a href="index.html" class="logoa">
         <img src="./logo.png" alt="logo.gabrieltorrez" class="logo" />
       </a>
-      <nav class="nav">
+      <nav class="navcontenedor">
+        <label for="toggle-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="toggle-menu" />
         <ul class="nav1">
           <li><a class="nav2" href="index.html">INICIO </a></li>
           <li><a class="nav2" href="#">SOBRE MI</a></li>
@@ -25,7 +34,7 @@
       <section class="section1">
         <div class="divtexto">
           <h1 class="h1portada">
-            <strong>Webs - Full Stack</strong>
+            <strong>WEBS FULL STACK</strong>
           </h1>
           <h2 class="h2portada">Creando Webs,conectando personas...</h2>
           <p class="pportada">
@@ -111,33 +120,66 @@
       </section>
       <section class="section4">
         <div class="divcontacto">
-          <div class="ladoizq">
-            <h3 class="h3contacto">CONTACTO</h3>
+          <div class="divcontacto1">
+            <div class="divcontacto2">
+              <div class="divh3contacto">
+                <h3 class="h3contacto">CONTACTO</h3>
+              </div>
 
-            <div class="divlugar">
-              <h3 class="h3ciudad">Ciudad de La Punta, San Luis, Argentina.</h3>
+              <div class="divh3ciudad">
+                <h3 class="h3ciudad">
+                  Ciudad de La Punta, San Luis, Argentina.
+                </h3>
+              </div>
+              <div class="divdp">
+                <ul>
+                  <li class="datosli">
+                    <img src="./gps.png" alt="logoubicacion" class="imggps" />
+                    B° UOCRA M-52 C-12
+                  </li>
+                  <li class="datosli">
+                    <img
+                      src="./email (2).png"
+                      alt="logoemail"
+                      class="imgemail"
+                    />Gabrieltorrez9303@gmail.com
+                  </li>
+                  <li class="datosli">
+                    <img
+                      src="./cel.png"
+                      alt="logocel"
+                      class="imgcel"
+                    />2664-325477
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="datospersonales">
-              <ul>
-                <li class="datosli">B° UOCRA M-52 C-12</li>
-                <li class="datosli">Gabrieltorrez9303@gmail.com</li>
-                <li class="datosli">2664-325477</li>
-              </ul>
+            <div class="divmaps">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3339.482532778775!2d-66.32399168524601!3d-33.17520949082398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc33dda38a26b8a33!2zMzPCsDEwJzMwLjgiUyA2NsKwMTknMTguNSJX!5e0!3m2!1ses-419!2sar!4v1664400450148!5m2!1ses-419!2sar"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
-          </div>
-          <div class="divmaps">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3339.482532778775!2d-66.32399168524601!3d-33.17520949082398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc33dda38a26b8a33!2zMzPCsDEwJzMwLjgiUyA2NsKwMTknMTguNSJX!5e0!3m2!1ses-419!2sar!4v1664400450148!5m2!1ses-419!2sar"
-              width="100%"
-              height="100%"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
           </div>
         </div>
       </section>
     </main>
+    <footer>
+      <section class="secfooter">
+        <div class="divfooter">
+          <div>
+            <img src="./htmlimg.png" alt="logohtml" class="htmlcssimg" />
+            <img src="./cssimg.png" alt="logo.css" class="htmlcssimg" />
+          </div>
+          <span class="htmlcss2"> HTML + CSS </span>
+          <p class="pfooter">#Hecho por Gabriel Torrez</p>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
